@@ -138,6 +138,9 @@ body {
     text-align: center;
     color: var(--title-text-color);
 }
+.examples-list {
+    list-style: none;
+}
 
 /*team - наша команда*/
 .team {

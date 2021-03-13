@@ -12,9 +12,7 @@
 <body>
     <header class="header">
         <nav>
-            <span>
                 <a href="index.html" class="logo"><span class="web">Web</span><span class="studio-header">Studio</span></a>
-            </span>
 
             <ul class="nav-list">
                 <li><a href="index.html" class="link nav-link current">Студия</a></li>
@@ -29,7 +27,7 @@
     <main>
         <section class="hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="button hero-button">Заказать услугу</button>
+            <button type="button" class="button hero-button">Заказать услугу</button>
         </section>
 
         <section class="advantages">
@@ -58,10 +56,13 @@
         </section>
 
         <section class="examples">
-            <h2 class="section-title">Чем мы занимаемся</h2>
-            <img src="images/1.jpg" alt="человек работает за планшетом" width="370" height="294">
-            <img src="images/2.jpg" alt="человек работает за ноутбуком с телефоном в руке" width="370" height="294">
-            <img src="images/3.jpg" alt="человек на планшете рассматривает цветовую диаграмму" width="370" height="294">
+            <h2 hidden class="section-title">Чем мы занимаемся</h2>
+            <ul class="examples-list">
+            <li><img src="images/1.jpg" alt="человек работает за планшетом" width="370" height="294"></li>
+            <li><img src="images/2.jpg" alt="человек работает за ноутбуком с телефоном в руке" width="370" height="294"></li>
+            <li><img src="images/3.jpg" alt="человек на планшете рассматривает цветовую диаграмму" width="370" height="294"></li>
+            </ul>
+            
         </section>
 
         <section class="team">
@@ -70,37 +71,35 @@
                 <li class="team-person">
                     <img src="images/img1.jpg" alt="Игорь Демьяненко Product Designer" width="270" height="260">
                     <h3 class="section-name">Игорь Демьяненко</h3>
-                    <span class="team-description">Product Designer</span>
+                    <p class="team-description">Product Designer</p>
                 </li>
 
                 <li class="team-person">
                     <img src="images/img2.jpg" alt="Ольга Репина Frontend Developer" width="270" height="260">
                     <h3 class="section-name">Ольга Репина</h3>
-                    <span class="team-description">Frontend Developer</span>
+                    <p class="team-description">Frontend Developer</p>
                 </li>
 
                 <li class="team-person">
                     <img src="images/img3.jpg" alt="Николай Тарасов Marketing"  width="270" height="260">
                     <h3 class="section-name">Николай Тарасов</h3>
-                    <span class="team-description">Marketing</span>
+                    <p class="team-description">Marketing</p>
                 </li>
 
                 <li class="team-person">
                     <img src="images/img4.jpg" alt="Михаил Ермаков UI Designer" width="270" height="260">
                     <h3 class="section-name">Михаил Ермаков</h3>
-                    <span class="team-description">UI Designer</span>
+                    <p class="team-description">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
 
     <footer class="footer">
-        <span>
             <a href="index.html" class="logo"><span class="web">Web</span><span class="studio-footer">Studio</span></a>
-        </span>
-
+       
         <address class="address">
-            <b><a class="footer-hover">г. Киев, пр-т Леси Украинки, 26</a></b><br>
+            <p><b><a class="footer-hover">г. Киев, пр-т Леси Украинки, 26</a></b></p>
             <a href="mailto:info@example.com" class="address-mail footer-hover">info@example.com</a><br>
             <a href="telto:+380991111111" class="address-mail footer-hover">+38 099 111 11 11</a>
         </address>
